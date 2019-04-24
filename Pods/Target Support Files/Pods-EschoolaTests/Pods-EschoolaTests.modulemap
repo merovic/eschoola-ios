@@ -1,0 +1,6 @@
+framework module Pods_EschoolaTests {
+  umbrella header "Pods-EschoolaTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

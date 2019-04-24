@@ -3,10 +3,33 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181BF7AC226A03F20059322D /* KidItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7AB226A03F20059322D /* KidItem.swift */; };
+		181BF7AE226A045E0059322D /* KidsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7AD226A045E0059322D /* KidsTableViewCell.swift */; };
+		181BF7B2226B6E160059322D /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7B1226B6E160059322D /* CalendarViewController.swift */; };
+		181BF7B4226B6E730059322D /* CalendarTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7B3226B6E730059322D /* CalendarTableViewCell.swift */; };
+		181BF7B6226B6E860059322D /* CalendarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7B5226B6E860059322D /* CalendarItem.swift */; };
+		181BF7B8226B74950059322D /* SideMenu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 181BF7B7226B74950059322D /* SideMenu.storyboard */; };
+		181BF7BA226B90370059322D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7B9226B90370059322D /* ProfileViewController.swift */; };
+		181BF7BC226B98E30059322D /* FavoriteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7BB226B98E30059322D /* FavoriteViewController.swift */; };
+		181BF7BE226BB0980059322D /* ReservationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7BD226BB0980059322D /* ReservationViewController.swift */; };
+		181BF7C0226BB25C0059322D /* ReservationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7BF226BB25C0059322D /* ReservationTableViewCell.swift */; };
+		181BF7C2226BB3F70059322D /* ReservationItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7C1226BB3F70059322D /* ReservationItem.swift */; };
+		181BF7C4226BB80F0059322D /* Stackview+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF7C3226BB80F0059322D /* Stackview+.swift */; };
+		181BF812226F48260059322D /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF811226F48260059322D /* WelcomeViewController.swift */; };
+		181BF814226F51DA0059322D /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF813226F51DA0059322D /* LoginViewController.swift */; };
+		181BF816226F52000059322D /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF815226F52000059322D /* RegistrationViewController.swift */; };
+		181BF818226F5BCC0059322D /* AddSonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF817226F5BCC0059322D /* AddSonViewController.swift */; };
+		181BF81A226F5E830059322D /* WeatherSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF819226F5E830059322D /* WeatherSettingsViewController.swift */; };
+		181BF81C226F5EB30059322D /* DistanceSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF81B226F5EB30059322D /* DistanceSettingsViewController.swift */; };
+		181BF81E226F5F1B0059322D /* HelpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF81D226F5F1B0059322D /* HelpViewController.swift */; };
+		181BF820226F5F3C0059322D /* AboutApplicationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF81F226F5F3C0059322D /* AboutApplicationViewController.swift */; };
+		181BF824226F5F980059322D /* AboutApplicationTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF823226F5F980059322D /* AboutApplicationTableViewCell.swift */; };
+		181BF826226F5FF00059322D /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181BF825226F5FF00059322D /* SettingViewController.swift */; };
+		181BF827226F73DE0059322D /* FeesDetailsTableViewCellArabic.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D623225B837E00A995B8 /* FeesDetailsTableViewCellArabic.xib */; };
 		18D4D598225B2B1400A995B8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D597225B2B1400A995B8 /* AppDelegate.swift */; };
 		18D4D59A225B2B1400A995B8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D599225B2B1400A995B8 /* ViewController.swift */; };
 		18D4D59D225B2B1400A995B8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D59B225B2B1400A995B8 /* Main.storyboard */; };
@@ -14,6 +37,60 @@
 		18D4D5A2225B2B1600A995B8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D5A0225B2B1600A995B8 /* LaunchScreen.storyboard */; };
 		18D4D5AD225B2B1600A995B8 /* EschoolaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5AC225B2B1600A995B8 /* EschoolaTests.swift */; };
 		18D4D5B8225B2B1600A995B8 /* EschoolaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5B7225B2B1600A995B8 /* EschoolaUITests.swift */; };
+		18D4D5CE225B530900A995B8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5CA225B530800A995B8 /* CardView.swift */; };
+		18D4D5CF225B530900A995B8 /* GradientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5CB225B530800A995B8 /* GradientView.swift */; };
+		18D4D5D0225B530900A995B8 /* UITextViewPlaceholder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5CC225B530800A995B8 /* UITextViewPlaceholder.swift */; };
+		18D4D5D1225B530900A995B8 /* UIView+Blur.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5CD225B530800A995B8 /* UIView+Blur.swift */; };
+		18D4D5E2225B534B00A995B8 /* DicountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D2225B534A00A995B8 /* DicountViewController.swift */; };
+		18D4D5E3225B534B00A995B8 /* SchoolDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D3225B534A00A995B8 /* SchoolDetailsViewController.swift */; };
+		18D4D5E4225B534B00A995B8 /* InfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D4225B534A00A995B8 /* InfoViewController.swift */; };
+		18D4D5E5225B534B00A995B8 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D5225B534A00A995B8 /* NewsViewController.swift */; };
+		18D4D5E6225B534B00A995B8 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D6225B534A00A995B8 /* FilterViewController.swift */; };
+		18D4D5E7225B534B00A995B8 /* SchoolsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D7225B534A00A995B8 /* SchoolsListViewController.swift */; };
+		18D4D5E8225B534B00A995B8 /* AboutGuestSchoolViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D8225B534A00A995B8 /* AboutGuestSchoolViewController.swift */; };
+		18D4D5E9225B534B00A995B8 /* FeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5D9225B534A00A995B8 /* FeesViewController.swift */; };
+		18D4D5EA225B534B00A995B8 /* SocialMediaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DA225B534A00A995B8 /* SocialMediaViewController.swift */; };
+		18D4D5EB225B534B00A995B8 /* SubFeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DB225B534B00A995B8 /* SubFeesViewController.swift */; };
+		18D4D5EC225B534B00A995B8 /* VisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DC225B534B00A995B8 /* VisionViewController.swift */; };
+		18D4D5ED225B534B00A995B8 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DD225B534B00A995B8 /* NewsDetailsViewController.swift */; };
+		18D4D5EE225B534B00A995B8 /* DetailsNaviViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DE225B534B00A995B8 /* DetailsNaviViewController.swift */; };
+		18D4D5EF225B534B00A995B8 /* SchoolLocationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5DF225B534B00A995B8 /* SchoolLocationViewController.swift */; };
+		18D4D5F0225B534B00A995B8 /* ComparisonViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5E0225B534B00A995B8 /* ComparisonViewController.swift */; };
+		18D4D5F1225B534B00A995B8 /* InfoDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5E1225B534B00A995B8 /* InfoDetailsViewController.swift */; };
+		18D4D5F4225B53E500A995B8 /* FeesDetailsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D5F3225B53E500A995B8 /* FeesDetailsTableViewCell.xib */; };
+		18D4D5FB225B53F000A995B8 /* FeesDetailsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5F5225B53EF00A995B8 /* FeesDetailsTableViewCell.swift */; };
+		18D4D5FC225B53F000A995B8 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5F6225B53EF00A995B8 /* NewsTableViewCell.swift */; };
+		18D4D5FD225B53F000A995B8 /* ComparisonTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5F7225B53F000A995B8 /* ComparisonTableViewCell.swift */; };
+		18D4D5FE225B53F000A995B8 /* InfoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5F8225B53F000A995B8 /* InfoTableViewCell.swift */; };
+		18D4D5FF225B53F000A995B8 /* MoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5F9225B53F000A995B8 /* MoreTableViewCell.swift */; };
+		18D4D600225B53F000A995B8 /* SchoolsListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D5FA225B53F000A995B8 /* SchoolsListTableViewCell.swift */; };
+		18D4D606225B542000A995B8 /* schoolListItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D601225B541F00A995B8 /* schoolListItem.swift */; };
+		18D4D608225B542000A995B8 /* ComparisonItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D603225B541F00A995B8 /* ComparisonItem.swift */; };
+		18D4D609225B542000A995B8 /* InfoItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D604225B542000A995B8 /* InfoItem.swift */; };
+		18D4D60A225B542000A995B8 /* FeesDetailsItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D605225B542000A995B8 /* FeesDetailsItem.swift */; };
+		18D4D60D225B548B00A995B8 /* WormTabStrip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D60B225B548A00A995B8 /* WormTabStrip.swift */; };
+		18D4D60E225B548B00A995B8 /* WormTabStripButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D60C225B548B00A995B8 /* WormTabStripButton.swift */; };
+		18D4D618225B54CF00A995B8 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D610225B54CF00A995B8 /* CalendarHeaderView.swift */; };
+		18D4D619225B54CF00A995B8 /* CalendarDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D611225B54CF00A995B8 /* CalendarDayCell.swift */; };
+		18D4D61A225B54CF00A995B8 /* CalendarFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D612225B54CF00A995B8 /* CalendarFlowLayout.swift */; };
+		18D4D61B225B54CF00A995B8 /* EventsLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D613225B54CF00A995B8 /* EventsLoader.swift */; };
+		18D4D61C225B54CF00A995B8 /* CalendarView+DataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D614225B54CF00A995B8 /* CalendarView+DataSource.swift */; };
+		18D4D61D225B54CF00A995B8 /* CalendarView+Delegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D615225B54CF00A995B8 /* CalendarView+Delegate.swift */; };
+		18D4D61E225B54CF00A995B8 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D616225B54CF00A995B8 /* CalendarView.swift */; };
+		18D4D61F225B54CF00A995B8 /* CalendarView+Style.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D617225B54CF00A995B8 /* CalendarView+Style.swift */; };
+		18D4D622225B552300A995B8 /* DroidArabicKufi.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D621225B552200A995B8 /* DroidArabicKufi.ttf */; };
+		18D4D625225F3F2300A995B8 /* SideMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D624225F3F2300A995B8 /* SideMenuTableViewCell.swift */; };
+		18D4D70022651E3200A995B8 /* XMSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D6FF22651E3200A995B8 /* XMSegmentedControl.swift */; };
+		18D4D7102265643000A995B8 /* CardViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 18D4D70F2265643000A995B8 /* CardViewController.xib */; };
+		18D4D71222667F1100A995B8 /* VisionItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D71122667F1100A995B8 /* VisionItem.swift */; };
+		18D4D71422667F6F00A995B8 /* VisionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D71322667F6F00A995B8 /* VisionTableViewCell.swift */; };
+		18D4D7162267087500A995B8 /* SchoolFeaturesItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D7152267087500A995B8 /* SchoolFeaturesItem.swift */; };
+		18D4D7182267090D00A995B8 /* SchoolFeaturesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D7172267090D00A995B8 /* SchoolFeaturesCollectionViewCell.swift */; };
+		18D4D71A2268E72D00A995B8 /* MyCustomCellDelegator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D7192268E72D00A995B8 /* MyCustomCellDelegator.swift */; };
+		18D4D71F2269235400A995B8 /* NewFeesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D71E2269235400A995B8 /* NewFeesViewController.swift */; };
+		A546EE45A25C82F36E880F6D /* Pods_Eschoola.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E48B8E1592C064CB9C3C793 /* Pods_Eschoola.framework */; };
+		B2D665F62CCEAD2758FEFDFD /* Pods_EschoolaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8DC5C15886E4655D621373FA /* Pods_EschoolaTests.framework */; };
+		CCFE8495368A3F38EBB05BFC /* Pods_EschoolaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C52D07A690E87FBB8298A1C /* Pods_EschoolaUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +111,29 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E48B8E1592C064CB9C3C793 /* Pods_Eschoola.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Eschoola.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		181BF7AB226A03F20059322D /* KidItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidItem.swift; sourceTree = "<group>"; };
+		181BF7AD226A045E0059322D /* KidsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KidsTableViewCell.swift; sourceTree = "<group>"; };
+		181BF7B1226B6E160059322D /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		181BF7B3226B6E730059322D /* CalendarTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarTableViewCell.swift; sourceTree = "<group>"; };
+		181BF7B5226B6E860059322D /* CalendarItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarItem.swift; sourceTree = "<group>"; };
+		181BF7B7226B74950059322D /* SideMenu.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SideMenu.storyboard; sourceTree = "<group>"; };
+		181BF7B9226B90370059322D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		181BF7BB226B98E30059322D /* FavoriteViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteViewController.swift; sourceTree = "<group>"; };
+		181BF7BD226BB0980059322D /* ReservationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationViewController.swift; sourceTree = "<group>"; };
+		181BF7BF226BB25C0059322D /* ReservationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationTableViewCell.swift; sourceTree = "<group>"; };
+		181BF7C1226BB3F70059322D /* ReservationItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReservationItem.swift; sourceTree = "<group>"; };
+		181BF7C3226BB80F0059322D /* Stackview+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Stackview+.swift"; sourceTree = "<group>"; };
+		181BF811226F48260059322D /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		181BF813226F51DA0059322D /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		181BF815226F52000059322D /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		181BF817226F5BCC0059322D /* AddSonViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddSonViewController.swift; sourceTree = "<group>"; };
+		181BF819226F5E830059322D /* WeatherSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherSettingsViewController.swift; sourceTree = "<group>"; };
+		181BF81B226F5EB30059322D /* DistanceSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceSettingsViewController.swift; sourceTree = "<group>"; };
+		181BF81D226F5F1B0059322D /* HelpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelpViewController.swift; sourceTree = "<group>"; };
+		181BF81F226F5F3C0059322D /* AboutApplicationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationViewController.swift; sourceTree = "<group>"; };
+		181BF823226F5F980059322D /* AboutApplicationTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutApplicationTableViewCell.swift; sourceTree = "<group>"; };
+		181BF825226F5FF00059322D /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
 		18D4D594225B2B1400A995B8 /* Eschoola.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Eschoola.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4D597225B2B1400A995B8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		18D4D599225B2B1400A995B8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +147,66 @@
 		18D4D5B3225B2B1600A995B8 /* EschoolaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EschoolaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		18D4D5B7225B2B1600A995B8 /* EschoolaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EschoolaUITests.swift; sourceTree = "<group>"; };
 		18D4D5B9225B2B1600A995B8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18D4D5CA225B530800A995B8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		18D4D5CB225B530800A995B8 /* GradientView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradientView.swift; sourceTree = "<group>"; };
+		18D4D5CC225B530800A995B8 /* UITextViewPlaceholder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITextViewPlaceholder.swift; sourceTree = "<group>"; };
+		18D4D5CD225B530800A995B8 /* UIView+Blur.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Blur.swift"; sourceTree = "<group>"; };
+		18D4D5D2225B534A00A995B8 /* DicountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DicountViewController.swift; sourceTree = "<group>"; };
+		18D4D5D3225B534A00A995B8 /* SchoolDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolDetailsViewController.swift; sourceTree = "<group>"; };
+		18D4D5D4225B534A00A995B8 /* InfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoViewController.swift; sourceTree = "<group>"; };
+		18D4D5D5225B534A00A995B8 /* NewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		18D4D5D6225B534A00A995B8 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
+		18D4D5D7225B534A00A995B8 /* SchoolsListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsListViewController.swift; sourceTree = "<group>"; };
+		18D4D5D8225B534A00A995B8 /* AboutGuestSchoolViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutGuestSchoolViewController.swift; sourceTree = "<group>"; };
+		18D4D5D9225B534A00A995B8 /* FeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeesViewController.swift; sourceTree = "<group>"; };
+		18D4D5DA225B534A00A995B8 /* SocialMediaViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SocialMediaViewController.swift; sourceTree = "<group>"; };
+		18D4D5DB225B534B00A995B8 /* SubFeesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SubFeesViewController.swift; sourceTree = "<group>"; };
+		18D4D5DC225B534B00A995B8 /* VisionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisionViewController.swift; sourceTree = "<group>"; };
+		18D4D5DD225B534B00A995B8 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		18D4D5DE225B534B00A995B8 /* DetailsNaviViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsNaviViewController.swift; sourceTree = "<group>"; };
+		18D4D5DF225B534B00A995B8 /* SchoolLocationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolLocationViewController.swift; sourceTree = "<group>"; };
+		18D4D5E0225B534B00A995B8 /* ComparisonViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonViewController.swift; sourceTree = "<group>"; };
+		18D4D5E1225B534B00A995B8 /* InfoDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoDetailsViewController.swift; sourceTree = "<group>"; };
+		18D4D5F3225B53E500A995B8 /* FeesDetailsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FeesDetailsTableViewCell.xib; sourceTree = "<group>"; };
+		18D4D5F5225B53EF00A995B8 /* FeesDetailsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeesDetailsTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D5F6225B53EF00A995B8 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D5F7225B53F000A995B8 /* ComparisonTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D5F8225B53F000A995B8 /* InfoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D5F9225B53F000A995B8 /* MoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D5FA225B53F000A995B8 /* SchoolsListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolsListTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D601225B541F00A995B8 /* schoolListItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = schoolListItem.swift; sourceTree = "<group>"; };
+		18D4D603225B541F00A995B8 /* ComparisonItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComparisonItem.swift; sourceTree = "<group>"; };
+		18D4D604225B542000A995B8 /* InfoItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InfoItem.swift; sourceTree = "<group>"; };
+		18D4D605225B542000A995B8 /* FeesDetailsItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeesDetailsItem.swift; sourceTree = "<group>"; };
+		18D4D60B225B548A00A995B8 /* WormTabStrip.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WormTabStrip.swift; sourceTree = "<group>"; };
+		18D4D60C225B548B00A995B8 /* WormTabStripButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WormTabStripButton.swift; sourceTree = "<group>"; };
+		18D4D610225B54CF00A995B8 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		18D4D611225B54CF00A995B8 /* CalendarDayCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarDayCell.swift; sourceTree = "<group>"; };
+		18D4D612225B54CF00A995B8 /* CalendarFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarFlowLayout.swift; sourceTree = "<group>"; };
+		18D4D613225B54CF00A995B8 /* EventsLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EventsLoader.swift; sourceTree = "<group>"; };
+		18D4D614225B54CF00A995B8 /* CalendarView+DataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+DataSource.swift"; sourceTree = "<group>"; };
+		18D4D615225B54CF00A995B8 /* CalendarView+Delegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+Delegate.swift"; sourceTree = "<group>"; };
+		18D4D616225B54CF00A995B8 /* CalendarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		18D4D617225B54CF00A995B8 /* CalendarView+Style.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "CalendarView+Style.swift"; sourceTree = "<group>"; };
+		18D4D621225B552200A995B8 /* DroidArabicKufi.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = DroidArabicKufi.ttf; sourceTree = "<group>"; };
+		18D4D623225B837E00A995B8 /* FeesDetailsTableViewCellArabic.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FeesDetailsTableViewCellArabic.xib; sourceTree = "<group>"; };
+		18D4D624225F3F2300A995B8 /* SideMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D6FF22651E3200A995B8 /* XMSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMSegmentedControl.swift; sourceTree = "<group>"; };
+		18D4D70F2265643000A995B8 /* CardViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardViewController.xib; sourceTree = "<group>"; };
+		18D4D71122667F1100A995B8 /* VisionItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionItem.swift; sourceTree = "<group>"; };
+		18D4D71322667F6F00A995B8 /* VisionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisionTableViewCell.swift; sourceTree = "<group>"; };
+		18D4D7152267087500A995B8 /* SchoolFeaturesItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFeaturesItem.swift; sourceTree = "<group>"; };
+		18D4D7172267090D00A995B8 /* SchoolFeaturesCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SchoolFeaturesCollectionViewCell.swift; sourceTree = "<group>"; };
+		18D4D7192268E72D00A995B8 /* MyCustomCellDelegator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomCellDelegator.swift; sourceTree = "<group>"; };
+		18D4D71E2269235400A995B8 /* NewFeesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewFeesViewController.swift; sourceTree = "<group>"; };
+		1B20486013570EF3BDC13284 /* Pods-Eschoola.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eschoola.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Eschoola/Pods-Eschoola.debug.xcconfig"; sourceTree = "<group>"; };
+		3C52D07A690E87FBB8298A1C /* Pods_EschoolaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EschoolaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		40FAFA70BB4277075D9DB33E /* Pods-EschoolaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EschoolaUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EschoolaUITests/Pods-EschoolaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		42724466FD13CCFBF1F9CD7E /* Pods-EschoolaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EschoolaTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EschoolaTests/Pods-EschoolaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		80D64244DD8AE0026B21FDA4 /* Pods-Eschoola.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Eschoola.release.xcconfig"; path = "Pods/Target Support Files/Pods-Eschoola/Pods-Eschoola.release.xcconfig"; sourceTree = "<group>"; };
+		8DC5C15886E4655D621373FA /* Pods_EschoolaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EschoolaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D9F240D96A89B5176FFB723 /* Pods-EschoolaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EschoolaUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EschoolaUITests/Pods-EschoolaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		BE697668F7AF736C67492AAC /* Pods-EschoolaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EschoolaTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EschoolaTests/Pods-EschoolaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +214,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A546EE45A25C82F36E880F6D /* Pods_Eschoola.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +222,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B2D665F62CCEAD2758FEFDFD /* Pods_EschoolaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCFE8495368A3F38EBB05BFC /* Pods_EschoolaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +244,8 @@
 				18D4D5AB225B2B1600A995B8 /* EschoolaTests */,
 				18D4D5B6225B2B1600A995B8 /* EschoolaUITests */,
 				18D4D595225B2B1400A995B8 /* Products */,
+				E050CF828BF884272070888F /* Pods */,
+				B3A6FB88725015CD337529F0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,9 +262,17 @@
 		18D4D596225B2B1400A995B8 /* Eschoola */ = {
 			isa = PBXGroup;
 			children = (
+				18D4D620225B550900A995B8 /* Fonts */,
+				18D4D60F225B54B600A995B8 /* CalendarView */,
+				18D4D5C9225B2DC800A995B8 /* Utilites */,
+				18D4D5C8225B2DBF00A995B8 /* Files */,
+				18D4D5C7225B2DB500A995B8 /* Controllers */,
+				18D4D5C6225B2DAF00A995B8 /* Views */,
+				18D4D5C5225B2DA600A995B8 /* Models */,
 				18D4D597225B2B1400A995B8 /* AppDelegate.swift */,
 				18D4D599225B2B1400A995B8 /* ViewController.swift */,
 				18D4D59B225B2B1400A995B8 /* Main.storyboard */,
+				181BF7B7226B74950059322D /* SideMenu.storyboard */,
 				18D4D59E225B2B1600A995B8 /* Assets.xcassets */,
 				18D4D5A0225B2B1600A995B8 /* LaunchScreen.storyboard */,
 				18D4D5A3225B2B1600A995B8 /* Info.plist */,
@@ -125,6 +298,159 @@
 			path = EschoolaUITests;
 			sourceTree = "<group>";
 		};
+		18D4D5C5225B2DA600A995B8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D603225B541F00A995B8 /* ComparisonItem.swift */,
+				18D4D605225B542000A995B8 /* FeesDetailsItem.swift */,
+				18D4D604225B542000A995B8 /* InfoItem.swift */,
+				18D4D601225B541F00A995B8 /* schoolListItem.swift */,
+				18D4D71122667F1100A995B8 /* VisionItem.swift */,
+				18D4D7152267087500A995B8 /* SchoolFeaturesItem.swift */,
+				181BF7AB226A03F20059322D /* KidItem.swift */,
+				181BF7B5226B6E860059322D /* CalendarItem.swift */,
+				181BF7C1226BB3F70059322D /* ReservationItem.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18D4D5C6225B2DAF00A995B8 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D5F2225B539B00A995B8 /* XIBs */,
+				18D4D5F7225B53F000A995B8 /* ComparisonTableViewCell.swift */,
+				18D4D5F5225B53EF00A995B8 /* FeesDetailsTableViewCell.swift */,
+				18D4D5F8225B53F000A995B8 /* InfoTableViewCell.swift */,
+				18D4D5F9225B53F000A995B8 /* MoreTableViewCell.swift */,
+				18D4D5F6225B53EF00A995B8 /* NewsTableViewCell.swift */,
+				18D4D5FA225B53F000A995B8 /* SchoolsListTableViewCell.swift */,
+				18D4D624225F3F2300A995B8 /* SideMenuTableViewCell.swift */,
+				18D4D71322667F6F00A995B8 /* VisionTableViewCell.swift */,
+				18D4D7172267090D00A995B8 /* SchoolFeaturesCollectionViewCell.swift */,
+				181BF7AD226A045E0059322D /* KidsTableViewCell.swift */,
+				181BF7B3226B6E730059322D /* CalendarTableViewCell.swift */,
+				181BF7BF226BB25C0059322D /* ReservationTableViewCell.swift */,
+				181BF823226F5F980059322D /* AboutApplicationTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18D4D5C7225B2DB500A995B8 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D5D8225B534A00A995B8 /* AboutGuestSchoolViewController.swift */,
+				18D4D5E0225B534B00A995B8 /* ComparisonViewController.swift */,
+				18D4D5DE225B534B00A995B8 /* DetailsNaviViewController.swift */,
+				18D4D5D2225B534A00A995B8 /* DicountViewController.swift */,
+				18D4D5D9225B534A00A995B8 /* FeesViewController.swift */,
+				18D4D5D6225B534A00A995B8 /* FilterViewController.swift */,
+				18D4D5E1225B534B00A995B8 /* InfoDetailsViewController.swift */,
+				18D4D5D4225B534A00A995B8 /* InfoViewController.swift */,
+				18D4D5DD225B534B00A995B8 /* NewsDetailsViewController.swift */,
+				18D4D5D5225B534A00A995B8 /* NewsViewController.swift */,
+				18D4D5D3225B534A00A995B8 /* SchoolDetailsViewController.swift */,
+				18D4D5DF225B534B00A995B8 /* SchoolLocationViewController.swift */,
+				18D4D5D7225B534A00A995B8 /* SchoolsListViewController.swift */,
+				18D4D5DA225B534A00A995B8 /* SocialMediaViewController.swift */,
+				18D4D5DB225B534B00A995B8 /* SubFeesViewController.swift */,
+				18D4D5DC225B534B00A995B8 /* VisionViewController.swift */,
+				18D4D71E2269235400A995B8 /* NewFeesViewController.swift */,
+				181BF7B1226B6E160059322D /* CalendarViewController.swift */,
+				181BF7B9226B90370059322D /* ProfileViewController.swift */,
+				181BF7BB226B98E30059322D /* FavoriteViewController.swift */,
+				181BF7BD226BB0980059322D /* ReservationViewController.swift */,
+				181BF811226F48260059322D /* WelcomeViewController.swift */,
+				181BF813226F51DA0059322D /* LoginViewController.swift */,
+				181BF815226F52000059322D /* RegistrationViewController.swift */,
+				181BF817226F5BCC0059322D /* AddSonViewController.swift */,
+				181BF819226F5E830059322D /* WeatherSettingsViewController.swift */,
+				181BF81B226F5EB30059322D /* DistanceSettingsViewController.swift */,
+				181BF81D226F5F1B0059322D /* HelpViewController.swift */,
+				181BF81F226F5F3C0059322D /* AboutApplicationViewController.swift */,
+				181BF825226F5FF00059322D /* SettingViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18D4D5C8225B2DBF00A995B8 /* Files */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D6FF22651E3200A995B8 /* XMSegmentedControl.swift */,
+				18D4D60B225B548A00A995B8 /* WormTabStrip.swift */,
+				18D4D60C225B548B00A995B8 /* WormTabStripButton.swift */,
+				18D4D7192268E72D00A995B8 /* MyCustomCellDelegator.swift */,
+			);
+			path = Files;
+			sourceTree = "<group>";
+		};
+		18D4D5C9225B2DC800A995B8 /* Utilites */ = {
+			isa = PBXGroup;
+			children = (
+				181BF7C3226BB80F0059322D /* Stackview+.swift */,
+				18D4D5CA225B530800A995B8 /* CardView.swift */,
+				18D4D5CB225B530800A995B8 /* GradientView.swift */,
+				18D4D5CC225B530800A995B8 /* UITextViewPlaceholder.swift */,
+				18D4D5CD225B530800A995B8 /* UIView+Blur.swift */,
+			);
+			path = Utilites;
+			sourceTree = "<group>";
+		};
+		18D4D5F2225B539B00A995B8 /* XIBs */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D70F2265643000A995B8 /* CardViewController.xib */,
+				18D4D623225B837E00A995B8 /* FeesDetailsTableViewCellArabic.xib */,
+				18D4D5F3225B53E500A995B8 /* FeesDetailsTableViewCell.xib */,
+			);
+			path = XIBs;
+			sourceTree = "<group>";
+		};
+		18D4D60F225B54B600A995B8 /* CalendarView */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D611225B54CF00A995B8 /* CalendarDayCell.swift */,
+				18D4D612225B54CF00A995B8 /* CalendarFlowLayout.swift */,
+				18D4D610225B54CF00A995B8 /* CalendarHeaderView.swift */,
+				18D4D616225B54CF00A995B8 /* CalendarView.swift */,
+				18D4D614225B54CF00A995B8 /* CalendarView+DataSource.swift */,
+				18D4D615225B54CF00A995B8 /* CalendarView+Delegate.swift */,
+				18D4D617225B54CF00A995B8 /* CalendarView+Style.swift */,
+				18D4D613225B54CF00A995B8 /* EventsLoader.swift */,
+			);
+			path = CalendarView;
+			sourceTree = "<group>";
+		};
+		18D4D620225B550900A995B8 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D621225B552200A995B8 /* DroidArabicKufi.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B3A6FB88725015CD337529F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E48B8E1592C064CB9C3C793 /* Pods_Eschoola.framework */,
+				8DC5C15886E4655D621373FA /* Pods_EschoolaTests.framework */,
+				3C52D07A690E87FBB8298A1C /* Pods_EschoolaUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E050CF828BF884272070888F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B20486013570EF3BDC13284 /* Pods-Eschoola.debug.xcconfig */,
+				80D64244DD8AE0026B21FDA4 /* Pods-Eschoola.release.xcconfig */,
+				42724466FD13CCFBF1F9CD7E /* Pods-EschoolaTests.debug.xcconfig */,
+				BE697668F7AF736C67492AAC /* Pods-EschoolaTests.release.xcconfig */,
+				40FAFA70BB4277075D9DB33E /* Pods-EschoolaUITests.debug.xcconfig */,
+				9D9F240D96A89B5176FFB723 /* Pods-EschoolaUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,9 +458,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D5BC225B2B1600A995B8 /* Build configuration list for PBXNativeTarget "Eschoola" */;
 			buildPhases = (
+				B0BB24ABD545411DE53CEE4D /* [CP] Check Pods Manifest.lock */,
 				18D4D590225B2B1400A995B8 /* Sources */,
 				18D4D591225B2B1400A995B8 /* Frameworks */,
 				18D4D592225B2B1400A995B8 /* Resources */,
+				3EDDFA7113369A32F9C880F9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +477,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D5BF225B2B1600A995B8 /* Build configuration list for PBXNativeTarget "EschoolaTests" */;
 			buildPhases = (
+				8430475212F3C56C8A176109 /* [CP] Check Pods Manifest.lock */,
 				18D4D5A4225B2B1600A995B8 /* Sources */,
 				18D4D5A5225B2B1600A995B8 /* Frameworks */,
 				18D4D5A6225B2B1600A995B8 /* Resources */,
@@ -167,6 +496,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 18D4D5C2225B2B1600A995B8 /* Build configuration list for PBXNativeTarget "EschoolaUITests" */;
 			buildPhases = (
+				864C427A4698D18479A074DC /* [CP] Check Pods Manifest.lock */,
 				18D4D5AF225B2B1600A995B8 /* Sources */,
 				18D4D5B0225B2B1600A995B8 /* Frameworks */,
 				18D4D5B1225B2B1600A995B8 /* Resources */,
@@ -230,8 +560,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				18D4D5A2225B2B1600A995B8 /* LaunchScreen.storyboard in Resources */,
+				18D4D5F4225B53E500A995B8 /* FeesDetailsTableViewCell.xib in Resources */,
+				18D4D7102265643000A995B8 /* CardViewController.xib in Resources */,
+				18D4D622225B552300A995B8 /* DroidArabicKufi.ttf in Resources */,
 				18D4D59F225B2B1600A995B8 /* Assets.xcassets in Resources */,
+				181BF827226F73DE0059322D /* FeesDetailsTableViewCellArabic.xib in Resources */,
 				18D4D59D225B2B1400A995B8 /* Main.storyboard in Resources */,
+				181BF7B8226B74950059322D /* SideMenu.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,13 +586,168 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3EDDFA7113369A32F9C880F9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eschoola/Pods-Eschoola-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Eschoola/Pods-Eschoola-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Eschoola/Pods-Eschoola-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8430475212F3C56C8A176109 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EschoolaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		864C427A4698D18479A074DC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EschoolaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B0BB24ABD545411DE53CEE4D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Eschoola-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		18D4D590225B2B1400A995B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				181BF81A226F5E830059322D /* WeatherSettingsViewController.swift in Sources */,
+				181BF814226F51DA0059322D /* LoginViewController.swift in Sources */,
+				18D4D5E2225B534B00A995B8 /* DicountViewController.swift in Sources */,
+				18D4D5EF225B534B00A995B8 /* SchoolLocationViewController.swift in Sources */,
+				18D4D5FC225B53F000A995B8 /* NewsTableViewCell.swift in Sources */,
+				18D4D60A225B542000A995B8 /* FeesDetailsItem.swift in Sources */,
+				18D4D600225B53F000A995B8 /* SchoolsListTableViewCell.swift in Sources */,
+				18D4D609225B542000A995B8 /* InfoItem.swift in Sources */,
+				18D4D5F0225B534B00A995B8 /* ComparisonViewController.swift in Sources */,
+				18D4D71A2268E72D00A995B8 /* MyCustomCellDelegator.swift in Sources */,
+				181BF7B4226B6E730059322D /* CalendarTableViewCell.swift in Sources */,
+				181BF81E226F5F1B0059322D /* HelpViewController.swift in Sources */,
+				181BF812226F48260059322D /* WelcomeViewController.swift in Sources */,
+				181BF7BA226B90370059322D /* ProfileViewController.swift in Sources */,
 				18D4D59A225B2B1400A995B8 /* ViewController.swift in Sources */,
+				18D4D61F225B54CF00A995B8 /* CalendarView+Style.swift in Sources */,
+				18D4D61E225B54CF00A995B8 /* CalendarView.swift in Sources */,
+				18D4D5EB225B534B00A995B8 /* SubFeesViewController.swift in Sources */,
+				18D4D619225B54CF00A995B8 /* CalendarDayCell.swift in Sources */,
+				18D4D71222667F1100A995B8 /* VisionItem.swift in Sources */,
+				18D4D625225F3F2300A995B8 /* SideMenuTableViewCell.swift in Sources */,
+				18D4D5F1225B534B00A995B8 /* InfoDetailsViewController.swift in Sources */,
+				181BF7BC226B98E30059322D /* FavoriteViewController.swift in Sources */,
+				18D4D5FF225B53F000A995B8 /* MoreTableViewCell.swift in Sources */,
+				181BF81C226F5EB30059322D /* DistanceSettingsViewController.swift in Sources */,
+				18D4D5FD225B53F000A995B8 /* ComparisonTableViewCell.swift in Sources */,
+				18D4D61A225B54CF00A995B8 /* CalendarFlowLayout.swift in Sources */,
+				18D4D70022651E3200A995B8 /* XMSegmentedControl.swift in Sources */,
+				18D4D71422667F6F00A995B8 /* VisionTableViewCell.swift in Sources */,
+				18D4D5D0225B530900A995B8 /* UITextViewPlaceholder.swift in Sources */,
+				18D4D5FB225B53F000A995B8 /* FeesDetailsTableViewCell.swift in Sources */,
+				18D4D5E5225B534B00A995B8 /* NewsViewController.swift in Sources */,
+				181BF7B2226B6E160059322D /* CalendarViewController.swift in Sources */,
+				18D4D5E3225B534B00A995B8 /* SchoolDetailsViewController.swift in Sources */,
+				18D4D5ED225B534B00A995B8 /* NewsDetailsViewController.swift in Sources */,
+				181BF7AC226A03F20059322D /* KidItem.swift in Sources */,
+				18D4D7162267087500A995B8 /* SchoolFeaturesItem.swift in Sources */,
+				18D4D5FE225B53F000A995B8 /* InfoTableViewCell.swift in Sources */,
+				18D4D5E6225B534B00A995B8 /* FilterViewController.swift in Sources */,
+				181BF818226F5BCC0059322D /* AddSonViewController.swift in Sources */,
+				181BF7AE226A045E0059322D /* KidsTableViewCell.swift in Sources */,
+				18D4D608225B542000A995B8 /* ComparisonItem.swift in Sources */,
+				18D4D5EE225B534B00A995B8 /* DetailsNaviViewController.swift in Sources */,
+				181BF7C0226BB25C0059322D /* ReservationTableViewCell.swift in Sources */,
+				181BF7BE226BB0980059322D /* ReservationViewController.swift in Sources */,
+				18D4D5E4225B534B00A995B8 /* InfoViewController.swift in Sources */,
+				181BF816226F52000059322D /* RegistrationViewController.swift in Sources */,
+				181BF820226F5F3C0059322D /* AboutApplicationViewController.swift in Sources */,
+				18D4D5CE225B530900A995B8 /* CardView.swift in Sources */,
+				181BF7B6226B6E860059322D /* CalendarItem.swift in Sources */,
+				18D4D5E7225B534B00A995B8 /* SchoolsListViewController.swift in Sources */,
+				18D4D5D1225B530900A995B8 /* UIView+Blur.swift in Sources */,
+				181BF826226F5FF00059322D /* SettingViewController.swift in Sources */,
+				18D4D61D225B54CF00A995B8 /* CalendarView+Delegate.swift in Sources */,
+				18D4D618225B54CF00A995B8 /* CalendarHeaderView.swift in Sources */,
+				18D4D606225B542000A995B8 /* schoolListItem.swift in Sources */,
+				18D4D5CF225B530900A995B8 /* GradientView.swift in Sources */,
+				181BF824226F5F980059322D /* AboutApplicationTableViewCell.swift in Sources */,
+				18D4D5E9225B534B00A995B8 /* FeesViewController.swift in Sources */,
+				18D4D61B225B54CF00A995B8 /* EventsLoader.swift in Sources */,
+				18D4D60E225B548B00A995B8 /* WormTabStripButton.swift in Sources */,
+				18D4D7182267090D00A995B8 /* SchoolFeaturesCollectionViewCell.swift in Sources */,
+				18D4D71F2269235400A995B8 /* NewFeesViewController.swift in Sources */,
+				18D4D5E8225B534B00A995B8 /* AboutGuestSchoolViewController.swift in Sources */,
+				18D4D5EC225B534B00A995B8 /* VisionViewController.swift in Sources */,
+				181BF7C2226BB3F70059322D /* ReservationItem.swift in Sources */,
+				181BF7C4226BB80F0059322D /* Stackview+.swift in Sources */,
+				18D4D61C225B54CF00A995B8 /* CalendarView+DataSource.swift in Sources */,
+				18D4D5EA225B534B00A995B8 /* SocialMediaViewController.swift in Sources */,
 				18D4D598225B2B1400A995B8 /* AppDelegate.swift in Sources */,
+				18D4D60D225B548B00A995B8 /* WormTabStrip.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +860,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 			};
 			name = Debug;
 		};
@@ -424,12 +915,14 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 4.2;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
 		18D4D5BD225B2B1600A995B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B20486013570EF3BDC13284 /* Pods-Eschoola.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -448,6 +941,7 @@
 		};
 		18D4D5BE225B2B1600A995B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80D64244DD8AE0026B21FDA4 /* Pods-Eschoola.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -466,6 +960,7 @@
 		};
 		18D4D5C0225B2B1600A995B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42724466FD13CCFBF1F9CD7E /* Pods-EschoolaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -487,6 +982,7 @@
 		};
 		18D4D5C1225B2B1600A995B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BE697668F7AF736C67492AAC /* Pods-EschoolaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +1004,7 @@
 		};
 		18D4D5C3225B2B1600A995B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 40FAFA70BB4277075D9DB33E /* Pods-EschoolaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -528,6 +1025,7 @@
 		};
 		18D4D5C4225B2B1600A995B8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D9F240D96A89B5176FFB723 /* Pods-EschoolaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
