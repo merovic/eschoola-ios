@@ -108,6 +108,9 @@ class SchoolsListViewController: UIViewController,UITableViewDelegate,UITableVie
     
     
     @IBAction func signup(_ sender: Any) {
+        
+        changeDrawerState()
+        welcomepopup()
     }
     
     func SideMenuRecognizers() {
@@ -148,39 +151,85 @@ class SchoolsListViewController: UIViewController,UITableViewDelegate,UITableVie
         let backgroundColor = #colorLiteral(red: 1, green: 1, blue: 1, alpha: 1)
         let highlightColor = #colorLiteral(red: 0.1882352941, green: 0.3843137255, blue: 0.5294117647, alpha: 1)
         
-        let titles = ["مدارس", "خريطة"]
-        let icons = [UIImage(named: "schoolsorange")!, UIImage(named: "maporange")!]
+        if(MOLHLanguage.isRTLLanguage())
+        {
+            let titles = ["خريطة","مدارس"]
+            let icons = [UIImage(named: "maporange")!, UIImage(named: "schoolsorange")!]
+            
+            let frame = CGRect(x: 0, y: 0, width: self.view.frame.width - 17, height: self.segmentedView.frame.height)
+            
+            let segmentedControl2 = XMSegmentedControl(frame: frame, segmentContent: (titles, icons), selectedItemHighlightStyle: XMSelectedItemHighlightStyle.background)
+            
+            segmentedControl2.delegate = self
+            
+            segmentedControl2.backgroundColor = backgroundColor
+            segmentedControl2.highlightColor = highlightColor
+            segmentedControl2.tint = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+            segmentedControl2.highlightTint = #colorLiteral(red: 0.9803921569, green: 0.6588235294, blue: 0.09803921569, alpha: 1)
+            segmentedControl2.contentType = .hybrid
+            segmentedControl2.selectedSegment = 1
+            segmentedView.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+            segmentedView.layer.borderWidth = 1.0
+            segmentedControl2.layer.borderWidth = 1.0
+            
+            //self.view.addSubview(segmentedControl2)
+            self.segmentedView.addSubview(segmentedControl2)
+            
+        }else
+        {
+            let titles = ["Schools","Map"]
+            let icons = [UIImage(named: "schoolsorange")!, UIImage(named: "maporange")!]
+            
+            let frame = CGRect(x: 0, y: 0, width: self.view.frame.width - 17, height: self.segmentedView.frame.height)
+            
+            
+            let segmentedControl2 = XMSegmentedControl(frame: frame, segmentContent: (titles, icons), selectedItemHighlightStyle: XMSelectedItemHighlightStyle.background)
+            
+            
+            segmentedControl2.delegate = self
+            
+            segmentedControl2.backgroundColor = backgroundColor
+            segmentedControl2.highlightColor = highlightColor
+            segmentedControl2.tint = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+            segmentedControl2.highlightTint = #colorLiteral(red: 0.9803921569, green: 0.6588235294, blue: 0.09803921569, alpha: 1)
+            segmentedControl2.contentType = .hybrid
+            segmentedView.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
+            segmentedView.layer.borderWidth = 1.0
+            segmentedControl2.layer.borderWidth = 1.0
+            
+            //self.view.addSubview(segmentedControl2)
+            self.segmentedView.addSubview(segmentedControl2)
+            
+        }
         
-        let frame = CGRect(x: 0, y: 0, width: self.view.frame.width - 17, height: self.segmentedView.frame.height)
-        
-        let segmentedControl2 = XMSegmentedControl(frame: frame, segmentContent: (titles, icons), selectedItemHighlightStyle: XMSelectedItemHighlightStyle.background)
-        
-        
-        segmentedControl2.delegate = self
-        
-        segmentedControl2.backgroundColor = backgroundColor
-        segmentedControl2.highlightColor = highlightColor
-        segmentedControl2.tint = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
-        segmentedControl2.highlightTint = #colorLiteral(red: 0.9803921569, green: 0.6588235294, blue: 0.09803921569, alpha: 1)
-        segmentedControl2.contentType = .hybrid
-        segmentedView.layer.borderColor = #colorLiteral(red: 0.6000000238, green: 0.6000000238, blue: 0.6000000238, alpha: 1)
-        segmentedView.layer.borderWidth = 1.0
-        segmentedControl2.layer.borderWidth = 1.0
-        
-        //self.view.addSubview(segmentedControl2)
-        self.segmentedView.addSubview(segmentedControl2)
     }
     
     func xmSegmentedControl(_ xmSegmentedControl: XMSegmentedControl, selectedSegment: Int) {
-        if(selectedSegment==0)
+        
+        if(MOLHLanguage.isRTLLanguage())
         {
-            tableView.isHidden = false
-            mapView.isHidden = true
+            if(selectedSegment==0)
+            {
+                tableView.isHidden = true
+                mapView.isHidden = false
+            }else
+            {
+                tableView.isHidden = false
+                mapView.isHidden = true
+            }
         }else
         {
-            tableView.isHidden = true
-            mapView.isHidden = false
+            if(selectedSegment==0)
+            {
+                tableView.isHidden = false
+                mapView.isHidden = true
+            }else
+            {
+                tableView.isHidden = true
+                mapView.isHidden = false
+            }
         }
+        
     }
     
     func mapConfiguration()
